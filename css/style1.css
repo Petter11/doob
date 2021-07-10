@@ -1,0 +1,384 @@
+body {
+    font-family: 'Work Sans';
+}
+
+.navbar-brand {
+    position: absolute;
+}
+
+#principal a {
+    color: #314584;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+#principal .nav-item a {
+    padding: 18px 0px;
+}
+
+#principal a:hover {
+    color: #ff3946;
+}
+
+.btn-grande {
+    padding: 8px 25px;
+}
+
+.btn-light {
+    color: #ff3946;
+    background-color: #fff;
+    box-shadow: 0px 2px 6px 0.3px rgb(0 0 0 / 10%);
+}
+
+.btn-light:hover {
+    color: #fff;
+    background-color: #ff3946;
+}
+
+.nav-item {
+    padding-right: 50px;
+}
+
+.nav-direito {
+    margin-right: 20px;
+}
+
+#destaque h1 {
+    color: #314584;
+    font-weight: 900;
+    width: 300px;
+    padding-top: 120px;
+}
+
+#destaque h2 {
+    font-size: 16px;
+    width: 450px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.btn.btn-rounded.btn-red {
+    background-color: #ff3946;
+    border-radius: 40px;
+    color: #fff;
+    padding: 5px 20px;
+}
+
+.btn.btn-rounded.btn-red:hover {
+    background-color: #fff;
+    color: #ff3946;
+    border: 1px solid #ff3946;
+}
+
+.btn.btn-muted {
+    color: #314584;
+}
+
+.btn.btn-muted:hover {
+    text-decoration: underline;
+}
+
+#destaque img {
+    width: 420px;
+    padding-top: 20px;
+}
+
+#div-principal{
+    background-image: url("./imgs/background01.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#div-secundaria {
+    margin-top: 70px;
+}
+
+#div-secundaria h1 {
+    color: #314584;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#div-secundaria {
+    background-image: url("./imgs/background02.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+.box {
+    box-shadow: 0px 3px 4px 2px rgb(0 0 0 / 10%);
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 30px;
+    min-height: 300px;
+}
+
+.box img {
+    height: 45px;
+    margin-bottom: 20px;
+}
+
+.box h3 {
+    color: #314584;
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.box p {
+    font-size: 12px;
+    color: #314584;
+}
+
+#div-4 img {
+    height: 270px;
+}
+
+#div-4 h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ff3946;
+}
+
+#div-4 h2 {
+    color: #314584;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+#div-4 p {
+    font-size: 16px;
+    color: #314584;
+}
+
+
+#galeria h1 {
+    color: #314584;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+#galeria img {
+    padding-bottom: 20px;
+}
+
+#galeria{
+    background-image: url("./img/background03.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.btn.btn-muted.btn-red {
+    color: #ff3946;
+    margin: 0 auto;
+}
+
+#stories-box h4{
+    color: #ff3946;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+#stories-box h1{
+    color: #314584;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.storie-box-1{
+    box-shadow: 0px 3px 4px 2px rgb(0 0 0 / 10%);
+    background-color:transparent;
+    background-size: contain;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 30px;
+    min-height: 300px;
+}
+
+.storie-box-2{
+    box-shadow: 0px 3px 4px 2px rgb(0 0 0 / 10%);
+    background-color:transparent;
+    background-size: contain;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 30px;
+    min-height: 300px;
+}
+.storie-box-3{
+    box-shadow: 0px 3px 4px 2px rgb(0 0 0 / 10%);
+    background-color:transparent;
+    background-size: contain;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 30px;
+    min-height: 300px;
+}
+
+.storie-box-1{
+    background-color: #ff3946;
+    color: #fff;
+}
+.storie-box-2 #data{
+    color: #6e757a;
+    margin-bottom: 25px;
+    font-size: 13px;
+}
+#noticia-box-2{
+    color: #fff;
+    border: 0;
+}
+
+.storie-box-2 h3{
+    color: #314584;
+    font-weight: bold;
+    border: transparent;
+}
+
+
+#news .noticia.bg-red {
+    background-color: #ff3946 !important;
+}
+
+#news .noticia .seta {
+    color: #ff3946;
+    float: right;
+}
+
+#news .noticia.bg-red p, 
+#news .noticia.bg-red .date, 
+#news .noticia.bg-red .title, 
+#news .noticia.bg-red .seta {
+    color: #fff !important;
+}
+
+#stories-box .h1{
+    color: #314584;
+}
+
+#stories-box .p{
+    color: #ff3946;
+}
+
+#contato h4 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ff3946;
+}
+
+#contato h1 {
+    color: #314584;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+#contato input {
+    color: #314584;
+    margin-bottom: 20px;
+    background-color: #f4fafe;
+    border: 0px;
+}
+
+#contato input::placeholder {
+    color: #314584;
+}
+
+#contato textarea {
+    color: #314584;
+    margin-bottom: 20px;
+    background-color: #f4fafe;
+    border: 0px;
+}
+
+.rodape{
+    min-height: 250px;
+    background-color: #314584;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    padding-right: 50px;
+}
+
+.rodape h5{
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.rodape h1{
+    color: #ff3946 !important;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold !important;
+    padding: 15px 25px;
+
+}
+
+.rodape .nav-item{
+    width: 100%;
+    float: left;
+    color: #f4fafe;
+    padding: 15px;
+}
+
+.rodape .nav-item a:hover{
+    width: 100%;
+    color:#ff3946;
+}
+
+.rodape p{
+    width: 100%; 
+    text-align: center;
+    font-size: 14px;
+    padding: 20px 10%;
+}
+
+.rodape .menu-final{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.rodape .nav-item a{
+    position: center;
+    padding: 10px;
+    color: #f4fafe;
+}
+
+
+.rodape li{
+    padding: 20px;
+    color: #f4fafe;
+}
+
+.rodape ul li{
+    display: inline;
+}
+.rodape .social-icons{
+    align-items: center;    
+}  
+.rodape .social-icons a{
+    color: #fff;
+    align-items: center;
+
+    padding: 30px;
+}
+
+.rodape .btn-facebook:hover{
+    color:#ff3946;
+}
+
+.rodape .btn-twitter:hover{
+    color:#ff3946;
+}
+.rodape .btn-dribble:hover{
+    color:#ff3946;
+}
