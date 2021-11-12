@@ -1,2 +1,2 @@
 # doob
-projeto pratico DOOB
+projeto pratico em HTML/CSS - DOOB
