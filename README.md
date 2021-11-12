@@ -1,2 +1,2 @@
 # doob
-projeto pratico em HTML/CSS - DOOB
+Desenvolvimento do primeiro projeto pratico em HTML/CSS - DOOB, Instituto FlexPeak.
